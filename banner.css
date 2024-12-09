@@ -11,7 +11,7 @@
 .nav-bar {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 97%;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   display: flex;
@@ -29,4 +29,13 @@
 .nav-bar a:hover {
   text-decoration: underline;
   color: black
+}
+
+.banner-heading{
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0,0, 0.7);
 }
